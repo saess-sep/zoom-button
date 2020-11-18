@@ -1,5 +1,6 @@
 #!/bin/bash
 #zoom crackly audio fix for JAMF
+#v0.1
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 currentUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { print $3 }' )
 i="6"
